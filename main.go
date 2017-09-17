@@ -20,7 +20,7 @@ func main() {
 	//		log.Printf("Ping OK")
 	//	}
 	// подключаемся к боту с помощью токена
-	bot, err := tgbotapi.NewBotAPI("234464051:AAH50Nox97nDpcJCWH9ekl_y3yn9wcfeY8E")
+	bot, err := tgbotapi.NewBotAPI(<youtelegrambottoken>)
 	if err != nil {
 		log.Panic(err)
 	}
